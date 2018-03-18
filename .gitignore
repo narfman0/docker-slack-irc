@@ -1,0 +1,4 @@
+bitlbee/
+# selinux
+*.pp
+*.te

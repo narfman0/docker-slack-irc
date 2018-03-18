@@ -1,0 +1,11 @@
+[
+  {
+    "nickname": "test_nick",
+    "server": "irc.freenode.org",
+    "token": "slacktoken",
+    "channelMapping": {
+      "#other-slack": "#new-irc-channel"
+    },
+    "slackUsernameFormat": ""
+  }
+]
