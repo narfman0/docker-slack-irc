@@ -14,4 +14,4 @@ USER root
 RUN npm cache clean --force
 
 USER node
-ENTRYPOINT [ "slack-irc" ]
+ENTRYPOINT [ "node", "/home/node/node_modules/slack-irc/dist/index.js" ]
