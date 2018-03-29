@@ -9,10 +9,9 @@ USER node
 WORKDIR /home/node
 
 RUN npm install --production slack-irc
-COPY --chown=node:node config.json /home/node/config.json
 
 USER root
 RUN npm cache clean --force
 
 USER node
-ENTRYPOINT [ "npm start -- --config /home/node/config.json" ]
+ENTRYPOINT [ "slack-irc" ]

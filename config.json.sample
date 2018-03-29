@@ -4,8 +4,8 @@
     "server": "irc.freenode.org",
     "token": "slacktoken",
     "channelMapping": {
-      "#other-slack": "#new-irc-channel"
+      "#other-slack": "#irc-channel"
     },
-    "slackUsernameFormat": ""
+    "slackUsernameFormat": "$username"
   }
 ]
